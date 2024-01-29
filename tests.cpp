@@ -67,7 +67,7 @@ static bool test_read_game_entity()
 		      << expected_health << "}\nbut got\n{"
 		      << actual_x << ", " << actual_y << ", " << actual_z << ", "
 		      << "'" << actual_name << "', "
-		      << actual_health << "}.\n";
+		      << actual_health << "}.\n";   
 
 	    return false;
 	}
